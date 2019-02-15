@@ -2,8 +2,7 @@
 // Danielle Kerr
 // 2/14/2019
 //
-// Extra for Experts:
-// - describe what you did to take this project "above and beyond"
+
 let x,y;
 
 function setup() {
