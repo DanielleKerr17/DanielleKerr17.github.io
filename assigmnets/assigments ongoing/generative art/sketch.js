@@ -7,10 +7,10 @@
 //-------------------------------------------------------------------------------------------------------
 
 function setup() {
- //createCanvas(4500, 3000);
- createCanvas(windowWidth, windowHeight);
+  createCanvas(4500, 3000);
+//createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
-  noLoop();
+
 }
 
 function draw() {
@@ -38,7 +38,7 @@ function triangle1(){
       rotate((i*10));
       fill(225, 0, 100 , map(i, 0, 10, 70, 0 ));    //changes what we can do with the for loop and variable
       stroke(170);
-      strokeWeight(0.5);
+      strokeWeight(0.3);
       triangle(-100, 100, 0, -100, 100, 100);
       pop();
 
@@ -53,7 +53,7 @@ function triangle2(){
   for(let i = 0; i < 15; i ++){
     
       push();
-      translate(0, i * -50);
+      translate(0, i * -70);
       rotate((i*10));
       fill(225, 0, 100 , map(i, 0, 10, 70, 0 ));    //changes what we can do with the for loop and variable
       stroke(170);
@@ -63,7 +63,7 @@ function triangle2(){
 
     
   }
-  
+  pop();
 }
 
 
